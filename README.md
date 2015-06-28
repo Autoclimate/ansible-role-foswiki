@@ -1,7 +1,7 @@
-Ansible playbook for Foswiki (http://foswiki.org)
+Ansible Role for Foswiki (http://foswiki.org)
 =================================================
 
-This playbook installs Foswiki on Ubuntu 12.04 or greater.
+This role installs Foswiki and is OS ambivalent
 
 The Foswiki is installed to /var/www/foswiki. The Apache server with SuExec is used.
 
@@ -9,5 +9,5 @@ Usage
 -----
 
 ```
-$ ansible-playbook playbooks/foswiki/setup.yml
+$ ansible-playbook -s foswiki.yml
 ```
